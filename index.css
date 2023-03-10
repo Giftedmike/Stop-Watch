@@ -1,0 +1,40 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+#stopWatch{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    width: 800px;
+}
+#stopWatch h2{
+    padding-top: 30px;
+    padding-bottom: 25px;
+    font-size: 73px;
+}
+.watchbtn :nth-child(2){
+    padding: 20px;
+    border-radius: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 117px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.watchbtn :nth-child(1){
+    padding: 10px;
+    width: 95px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.watchbtn :nth-child(3){
+    padding: 10px;
+    width: 95px;
+    font-weight: bold;
+    font-size: 20px;
+}
