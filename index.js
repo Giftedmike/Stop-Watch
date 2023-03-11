@@ -55,8 +55,8 @@ const displayDate = () => {
     setInterval(()=>{
         let date = new Date();
         document.getElementById('currentTime').innerHTML = date.toLocaleTimeString();
-        console.log(date);
-    },1000)
+        console.log(log);
+    },100)
 }
 
 displayDate();
