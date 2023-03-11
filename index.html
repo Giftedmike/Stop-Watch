@@ -11,11 +11,14 @@
 <body class="bg-dark">
    <div class="bg-light" id="stopWatch">
         <h1>STOP WATCH</h1>
-        <h2>00:00:00</h2>
+        <h2 id="displayTime">00:00:00</h2>
         <div class="watchbtn">
-            <button class="btn btn-danger" onclick="">STOP</button>
-            <button class="btn btn-success" onclick="">START</button>
-            <button class="btn btn-warning" onclick="">RESET</button>
+            <button class="btn btn-danger" onclick="stopWatch()">STOP</button>
+            <button class="btn btn-success" onclick="startWatch()">START</button>
+            <button class="btn btn-warning" onclick="resetWatch()">RESET</button>
+        </div>
+        <div id="currentTime" onload="timeNow()" class="text-success">
+
         </div>
    </div> 
 

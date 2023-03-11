@@ -6,11 +6,13 @@ body{
 }
 
 #stopWatch{
-    align-items: center;
-    justify-content: center;
+    width: 90%;
+    max-width: 600px;
     text-align: center;
-    margin-top: 150px;
-    width: 800px;
+    padding: 40px 0;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgb(0,0,0,0.2);
+    border-radius: 50px;
 }
 #stopWatch h2{
     padding-top: 30px;
@@ -37,4 +39,10 @@ body{
     width: 95px;
     font-weight: bold;
     font-size: 20px;
+}
+#currentTime{
+    font-size: 53px;
+    padding-top: 25px;
+    font-weight: bold;
+    color: green;
 }
